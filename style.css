@@ -1,3 +1,25 @@
+body{
+	background-color:#4A79A0;
+}
+
+h1{
+  font-family: Lobster,cursive;
+  font-size: 400;
+  text-align: center;
+  color:#FFCCCC;
+}
+
 p{
-  color:blue;
+  color: #CCCCFF;
+    font-family: 'Amatic SC', cursive;
+		font-size: 100;
+		text-align: center;
+}
+
+ul{
+  	text-align: center;
+}
+
+a{
+  text-align: center;
 }
