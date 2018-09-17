@@ -14,7 +14,7 @@ h1{
 h2{
   font-weight: bold;
   text-align: center;
-  color: #a884d0;
+  color: #C39BD3;
   font-family: 'Amatic SC', cursive;
 	font-size: 20pt;
 }
@@ -28,19 +28,18 @@ p{
 
 
 #container{
-    width: 75%;
+    width: 80%;
     background-color: #99CCCC;
     background-color: #759FBD;
     background-color:#B0C4DE;
-
     margin: 0 auto;
     text-align:center;
-    padding:100;
+    padding:8px;
+    margin-bottom: 50px;
 }
 
 #nav {
     padding: 0;
-    font-family: 'Pacifico',cursive;
 	  list-style-type: none;
 }
 
@@ -53,7 +52,9 @@ p{
 }
 
 .title1{
-  font-family: 'Basic', sans-serif;
+  font-family: 'Arimo', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
 }
 
 #nav a:link, a:visited {
@@ -61,12 +62,16 @@ p{
     color:#ffffff;
     text-align:center;
     text-decoration: none;
-    padding: 4px;
+    padding: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 #nav a:hover, a:active {
     background-color: #FFCCCC;
+    background-color: #FADBD8;
+    color: #CD5C5C;
 }
 
 
