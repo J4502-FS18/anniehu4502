@@ -1,12 +1,11 @@
 
 body{
-	background-color:#4A79A0;
   background-color: #56718F;
 }
 
 h1{
   font-family: Lobster,cursive;
-  font-size: 50pt;
+  font-size: 45pt;
   text-align: center;
   color:#FFCCCC;
 }
@@ -16,7 +15,7 @@ h2{
   text-align: center;
   color: #C39BD3;
   font-family: 'Amatic SC', cursive;
-	font-size: 20pt;
+	font-size: 25pt;
 }
 
 p{
@@ -27,15 +26,15 @@ p{
 }
 
 
+
 #container{
     width: 80%;
-    background-color: #99CCCC;
-    background-color: #759FBD;
-    background-color:#B0C4DE;
+		background-color: #759FBD;
+		background-color:#B0C4DE;
     margin: 0 auto;
     text-align:center;
-    padding:8px;
-    margin-bottom: 50px;
+    padding:2px;
+    margin-bottom: 30px;
 }
 
 #nav {
@@ -43,11 +42,21 @@ p{
 	  list-style-type: none;
 }
 
+h5{
+	color: #3D5363;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25pt;
+	text-align:center;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
 #nav li {
     margin: 0;
     padding: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
+		text-align:center;
+    margin-bottom: 0;
+    margin-top: 15px;
 	  text-decoration: none;
 }
 
@@ -69,7 +78,6 @@ p{
 }
 
 #nav a:hover, a:active {
-    background-color: #FFCCCC;
     background-color: #FADBD8;
     color: #CD5C5C;
 }
