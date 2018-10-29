@@ -1,6 +1,7 @@
 
 body{
   background-color: #56718F;
+  max-width:95%;
 }
 
 h1{
@@ -151,4 +152,38 @@ body {
 	.item {
 		margin: auto;
 	}
+}
+
+
+
+
+@media screen and (min-width:900px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a a a"
+        ". b b"
+        ". c c"
+
+  }
+
+  .myportfolio {
+    width: 100%;
+    grid-area: a;
+  }
+
+  .othersites{
+    width: 100%;
+    grid-area: b;
+  }
+
+  .photos{
+    width: 100%;
+    grid-area: c;
+  }
+
+
+
 }
