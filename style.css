@@ -204,9 +204,10 @@ body {
     width:100%;
     grid-area: g;
   }
+}
 
   @media screen and (min-width:1000px) {
-    .grid{
+    .grid {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 15px;
@@ -214,6 +215,7 @@ body {
           "a a a a"
           "b b b b"
           "c d e f"
-          "g g g g"
+          "g g g g";
 
    }
+}
