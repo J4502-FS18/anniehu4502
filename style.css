@@ -9,6 +9,8 @@ h1{
   font-size: 45pt;
   text-align: center;
   color:#FFCCCC;
+  order:2;
+
 }
 
 h2{
@@ -40,7 +42,16 @@ img{
     text-align:center;
     padding:2px;
     margin-bottom: 30px;
+    
+
 }
+
+.menu-trigger{
+  order:1;
+  font-size:1.25em;
+  width:1.75em;
+}
+
 
 #nav {
     padding: 0;
@@ -123,6 +134,7 @@ body {
 	border-radius: 12px;
   box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
   text-align: center;
+  display:none;
 
 }
 
@@ -137,11 +149,19 @@ body {
   flex-wrap:nowrap;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.container {
 		flex-direction: row;
 
 	}
+
+  .item{
+    display:block;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
 }
 
 @media (min-width: 800px) {
